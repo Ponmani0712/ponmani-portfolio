@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ponmani Portfolio</title>
+
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style2.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER / NAVBAR -->
+<header class="header">
+    <h1>Ponmani Tamilselvan</h1>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <video autoplay loop muted>
+            <source src="wavy video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    <div class="hero-content">
+    <h1>Hi there, I'm <span>Ponmani</span></h1>
+    <p>Frontend Web Developer</p>
+    </div>
+    <button class="btn">
+        <div class="button1" onclick="location.href='#contact'">HIRE ME!</div>
+        <a href="Ponmani_Tamilselvan-CV.pdf" class="button2" download>DOWNLOAD CV</a>
+    </button>
+</section>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+  <p class="about-subtitle">Myself</p>
+  <h2 class="about-title">About Me</h2>
+  <div class="about-container">
+    <!-- Photo -->
+    <div class="about-img">
+      <img src="pt.jpeg" alt="Ponmani Profile Photo">
+    </div>
+    <div class="about-text">
+    <h2>I'm Ponmani,</h2>
+    <p>
+        I’m a passionate Frontend Web Developer who loves crafting clean, 
+        modern, and user-friendly web interfaces. I focus on turning ideas 
+        into responsive designs with smooth animations and visually appealing 
+        layouts. With a strong eye for detail, I aim to create seamless user 
+        experiences across all devices. As a fresher, I’m eager to learn, grow, 
+        and contribute creatively to real-world projects.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Service-->
+<section class="service-section" id="service">
+  <p class="service-subtitle">Service</p>
+  <h2 class="service-title">What I Do</h2>
+
+  <p class="service-desc">
+    Specialized in frontend web development with a strong focus on
+    creating responsive, user-friendly, and visually appealing websites.
+    Skilled in building modern UI using latest web technologies and
+    best practices to enhance user experience.
+  </p>
+
+  <div class="service-cards">
+    <div class="service-box">
+      <div class="icon zap"><i data-lucide="palette"></i></div>
+      <h3>UI Design</h3>
+    </div>
+
+    <div class="service-box">
+      <div class="icon zap"><i data-lucide="code"></i></div>
+      <h3>Frontend Development</h3>
+    </div>
+
+    <div class="service-box">
+      <div class="icon zap"><i data-lucide="screen share"></i></div>
+      <h3>Responsive Design</h3>
+    </div>
+
+    <div class="service-box">
+      <div class="icon zap"><i data-lucide="zap"></i></div>
+      <h3>Website Optimization</h3>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+ 
+<section class="skills" id="skills">
+  <p class="skill-sub">Skills</p>
+  <h1>Technical Skills</h1>
+  <p class="subtitle">
+    A comprehensive overview of my expertise in modern web development<br>
+    technologies and tools
+  </p>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h3>Languages</h3>       <!---------------------------------->
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">JavaScript / TypeScript</span>
+          <span class="skill-percent">98%</span>
+        </div>
+        <div class="bar"><div style="width:95%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">HTML5</span>
+          <span class="skill-percent">98%</span>
+        </div>
+        <div class="bar"><div style="width:98%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">CSS3 / SCSS</span>
+          <span class="skill-percent">92%</span>
+        </div>
+        <div class="bar"><div style="width:92%"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card active">
+      <h3>Frameworks & Libraries</h3>       <!---------------------------------->
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">React</span>
+          <span class="skill-percent">95%</span>
+        </div>
+        <div class="bar"><div style="width:95%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Vue.js</span>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Next.js</span>
+          <span class="skill-percent">88%</span>
+        </div>
+        <div class="bar"><div style="width:88%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Tailwind CSS</span>
+          <span class="skill-percent">93%</span>
+        </div>
+        <div class="bar"><div style="width:93%"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Design & UI/UX</h3>       <!---------------------------------->
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Responsive Design</span>
+          <span class="skill-percent">96%</span>
+        </div>
+        <div class="bar"><div style="width:96%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Figma</span>
+          <span class="skill-percent">87%</span>
+        </div>
+        <div class="bar"><div style="width:87%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Animation (Framer)</span>
+          <span class="skill-percent">82%</span>
+        </div>
+        <div class="bar"><div style="width:82%"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Tools & Technologies</h3>       <!---------------------------------->
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Git</span>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Vite / Webpack</span>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">REST APIs</span>
+          <span class="skill-percent">92%</span>
+        </div>
+        <div class="bar"><div style="width:92%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">GraphQL</span>
+          <span class="skill-percent">78%</span>
+        </div>
+        <div class="bar"><div style="width:78%"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Version Control</h3>       <!---------------------------------->
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">GitHub</span>
+          <span class="skill-percent">93%</span>
+        </div>
+        <div class="bar"><div style="width:93%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">GitLab</span>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">CI / CD</span>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="bar"><div style="width:75%"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Performance & Testing</h3>       <!---------------------------------->
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Web Performance</span>
+          <span class="skill-percent">88%</span>
+        </div>
+        <div class="bar"><div style="width:88%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Jest / Vitest</span>
+          <span class="skill-percent">82%</span>
+        </div>
+        <div class="bar"><div style="width:82%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Accessibility (A11y)</span>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+    </div>
+
+  </div>
+  <!---------------------------------->
+  <div class="extra-card">
+  <h2 class="extra-title">Additional Competencies</h2>
+  <div class="tags">
+    <span>Cross-browser Compatibility</span>
+    <span>SEO Optimization</span>
+    <span>Agile / Scrum</span>
+    <span>Problem Solving</span>
+    <span>Team Collaboration</span>
+    <span>Code Review</span>
+    <span>Web Security</span>
+    <span>Progressive Web Apps</span>
+  </div>
+  </div>
+</section>
+
+
+<!----------PROJECT------------->
+<section class="projects" id="projects">
+  <p class="project-sub">Projects</p>
+  <h1>Featured Projects</h1>
+  <p class="subtitle">
+    Explore my latest work showcasing modern web development techniques and creative solutions
+  </p>
+
+  <div class="project-grid">
+
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="icon pink"><i data-lucide="shopping-bag"></i></div>
+      <h3>Food Ordering Website</h3>
+      <p>
+        A full-featured restaurant ordering platform with real-time cart updates,
+        menu browsing, and seamless checkout experience.
+      </p>
+
+      <div class="tags">
+        <span>React</span>
+        <span>Tailwind</span>
+        <span>API Integration</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary" onclick="window.location.href='https://ponmani0712.github.io/foodie/'">Live Demo</a>
+        <a class="btn outline" onclick="window.open('https://github.com/Ponmani0712/foodie')">Code</a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="icon gradient"><i data-lucide="brain"></i></div>
+      <h3>Quiz Application</h3>
+      <p>
+        Interactive quiz platform with dynamic question generation,
+        score tracking, and instant feedback.
+      </p>
+
+      <div class="tags">
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>State </span>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary">Live Demo</a>
+        <a class="btn outline" onclick="window.open('https://github.com/Ponmani0712/quizapp')">Code</a>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="icon purple"><i data-lucide="user"></i></div>
+      <h3>Personal Portfolio</h3>
+      <p>
+        Modern and responsive portfolio showcasing projects, skills,
+        and achievements with smooth animations.
+      </p>
+
+      <div class="tags">
+        <span>React</span>
+        <span>CSS Animations</span>
+        <span>Responsive</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary">Live Demo</a>
+        <a class="btn outline" onclick="window.open('https://github.com/Ponmani0712/portfolio')">Code</a>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <div class="icon dark-purple"><i data-lucide="graduation-cap"></i></div>
+      <h3>E-Learning Platform</h3>
+      <p>
+        Comprehensive learning management system with course modules,
+         progress tracking, and interactive video lessons.
+      </p>
+
+      <div class="tags">
+        <span>React</span>
+        <span>Video Integration</span>
+        <span>UI Design</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary">Live Demo</a>
+        <a class="btn outline" onclick="window.open('https://github.com/Ponmani0712/e-learning')">Code</a>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card">
+      <div class="icon light-pink"><i data-lucide="home"></i></div>
+      <h3>Landing Page</h3>
+      <p>
+        High-converting landing page with captivating design, 
+        call-to-action sections, and optimized user flow for conversions.
+      </p>
+
+      <div class="tags">
+        <span>React</span>
+        <span>UI/UX</span>
+        <span>Performance</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary">Live Demo</a>
+        <a class="btn outline" onclick="window.open('https://github.com/Ponmani0712/landing-page')">Code</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="box">
+      <h2>Hire me for your project.</h2>
+      <p>I am passionate about frontend development
+         and love creating modern, responsive websites. I have skills in HTML, 
+         CSS, JavaScript, React.js, and Vue.js. I am eager to learn, collaborate, 
+         and bring your ideas to life.</p>
+        <div class="wrapper1">
+            <div class="petal petal1"></div>
+            <div class="petal petal2"></div>
+            <div class="petal petal3"></div>
+            <div class="petal petal4"></div>
+            <div class="petal petal5"></div>
+            <div class="petal petal6"></div>
+            <div class="petal petal7"></div>
+            <div class="petal petal8"></div>
+            <div class="petal petal9"></div>
+            <div class="petal petal10"></div>
+            <div class="miolo"></div>
+        </div>
+        <div class="wrapper2">
+            <div class="petal petal1"></div>
+            <div class="petal petal2"></div>
+            <div class="petal petal3"></div>
+            <div class="petal petal4"></div>
+            <div class="petal petal5"></div>
+            <div class="petal petal6"></div>
+            <div class="petal petal7"></div>
+            <div class="petal petal8"></div>
+            <div class="petal petal9"></div>
+            <div class="petal petal10"></div>
+            <div class="miolo"></div>
+        </div>
+    </div>
+</section>
+
+
+<!--CONTACT-->
+<section id="contact" class="contact-section">
+  <p class="contact-sub">Get in Touch</p>
+  <h1>Let’s Connect</h1>
+      <p>Whether you have a project in mind or just want to chat, 
+        I'm always open to discussing new opportunities and ideas.</p>
+  <div class="contact-container">
+
+    <!-- LEFT : Contact Form -->
+    <div class="contact-form">
+      
+
+      <form action="https://formspree.io/f/xeeajavw" method="POST">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit">Send Message</button>
+
+</form>
+
+    </div>
+
+    <!-- RIGHT : Contact Details -->
+    <div class="contact-info">
+      <h3>Contact Details</h3>
+
+      <div class="info-item">
+        <i data-lucide="mail"></i>
+        <span>ponmaniu202469@gmail.com</span>
+      </div>
+
+      <div class="info-item">
+        <i data-lucide="phone"></i>
+        <span>+91 9384329944</span>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/ponmani0712"><i data-lucide="linkedin"></i></a>
+        <a href="https://instagram.com/ponni_smiley"><i data-lucide="instagram"></i></a>
+        <a href="https://wa.me/919384329944"><i data-lucide="message-circle"></i></a>
+        <a href="https://github.com/ponmani0712"><i data-lucide="github"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="wave-footer">
+  <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+    <path d="M0,64L48,74.7C96,85,192,107,288,101.3C384,96,480,64,576,58.7C672,53,768,75,864,80C960,85,1056,75,1152,69.3C1248,64,1344,64,1392,64L1440,64L1440,0L0,0Z"></path>
+  </svg>
+
+  <div class="footer-content">
+    © 2026 Ponmani | Frontend Web Developer
+  </div>
+</footer>
+
+
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
